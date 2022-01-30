@@ -2,12 +2,12 @@
   background-color: var(--main-bgc);
   padding-top: 60px;
   padding-bottom: 60px;
-  & .social-link {
+  & .social__link {
     background-color: rgba(255, 255, 255, 0.1);
     color: var(--white-link-color);
   }
-  & .social-link:hover,
-  & .social-link:focus {
+  & .social__link:hover,
+  & .social__link:focus {
     background-color: var(--accent-color);
   }
   &-adress-link {
@@ -33,8 +33,6 @@
     color: rgba(255, 255, 255, 0.6);
   }
 }
-// .social-link:hover, .social-link:focus вирішив залишити в футері
-// так як зміни стосуються лише для сошл лінк який в футері
 .containeer-footer {
   display: flex;
   align-items: baseline;
