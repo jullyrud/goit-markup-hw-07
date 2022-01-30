@@ -8,10 +8,15 @@
 //COMPONENTS
 @import "./components/container";
 @import "./components/btn";
-@import "./components/secct-tittle";
+@import "./components/section";
+@import "./components/logo";
+@import "./components/backdrop";
+@import "./components/socials";
+@import "./components/modal";
+@import "./components/modal-form";
 
 //LAYOUT
-@import "./layout/header-logo";
+@import "./layout/header";
 @import "./layout/sitenav";
 @import "./layout/hero";
 @import "./layout/about";
@@ -21,9 +26,3 @@
 @import "./layout/footer";
 @import "./layout/filterbtn";
 @import "./layout/our-projects";
-@import "./layout/backdrop";
-@import "./layout/modal";
-@import "./layout/modal-form";
-@import "./layout/partners";
-@import "./layout/partners";
-@import "./layout/partners";
